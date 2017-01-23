@@ -1,0 +1,21 @@
+[{
+	"ServerName" : "test",
+	"ServerIP" : "10.10.10.9",
+	"ServerUser" : "administrator",
+	"ServerPass" : "Messeiry@2012",
+	"FiltersWMI" : "SELECT Caption,Version FROM Win32_OperatingSystem"
+},
+{
+	"ServerName" : "test",
+	"ServerIP" : "10.10.10.9",
+	"ServerUser" : "administrator",
+	"ServerPass" : "Messeiry@2012",
+	"FiltersWMI" : "SELECT Caption,Version FROM Win32_OperatingSystem"
+},
+{
+	"ServerName" : "test",
+	"ServerIP" : "10.10.10.9",
+	"ServerUser" : "administrator",
+	"ServerPass" : "Messeiry@2012",
+	"FiltersWMI" : "SELECT * from Win32_NTLogEvent Where Logfile = 'System'"
+}]
